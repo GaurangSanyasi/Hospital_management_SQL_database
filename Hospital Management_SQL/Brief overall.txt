@@ -1,0 +1,58 @@
+1) PAITENTS:
+patients id,
+First name,
+Last name,
+Gender,
+DOB,
+Contact,
+Address
+
+
+2) Doctors: 
+Doctor ID,
+First name,
+Last name,
+gender,
+specialization
+Contact,
+email
+
+
+3)Appointments:
+Appointment ID,
+patient id (fk)- patients
+doctor id (fk) - doctors
+Appointment date
+appointment time
+
+
+4)staff:
+Staff id,
+first name,
+last name,
+gender,
+DOB,
+contact,
+JOB title
+
+
+5)rooms:
+room id 
+name
+
+
+6)admissions:
+Admissions id,
+Patient id (fk)- patients
+room id(fk)-rooms
+Admission date 
+discharge date,
+
+
+7) billing 
+bill id,
+Patient id (FK) - patients,
+patient name,
+admissionid (FK)- admissions,
+Total amount
+paymentstatus,
